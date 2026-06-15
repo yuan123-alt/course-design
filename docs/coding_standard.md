@@ -15,10 +15,10 @@
 | 类型     | 规                            | 示例                                            |
 | -------- | ----------------------------- | ----------------------------------------------- |
 | 局部变量 | `snake_case`（小写+下划线） | `city_count`, `edge_weight`, `is_visited` |
-| 全局变量 | `g_` 前缀 + `snake_case`  | `g_graph_matrix`, `g_graph_list`            |
-| 成员变量 | `m_` 前缀 + `snake_case`  | `m_vertex_num`, `m_edge_num`                |
+| 全局变量 | `snake_case`                | `graph_matrix`, `graph_list`                |
+| 成员变量 | `snake_case`                | `vertex_num`, `edge_num`                    |
 | 常量     | 全大写 + 下划线               | `MAX_CITY_COUNT`, `INF_WEIGHT`              |
-| 指针变量 | `p` 前缀 + 主体名           | `p_adj_matrix`, `p_head_node`               |
+| 指针变量 | `snake_case`                | `adj_matrix`, `head_node`                   |
 
 ### 1.2 函数命名
 
